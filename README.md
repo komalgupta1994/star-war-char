@@ -1,5 +1,5 @@
-## Application is developed using the next js 14 with App Routing. Code is written in Typescript.
-## Here my first page is "Server Side Page", which means api will be called at server not on browser.
+# Application is developed using the next js 14 with App Routing. Code is written in Typescript.
+# Here the first page is "Server Side Page", which means api will be called at server not on browser.
 
 ## To run the app run below commands
 npm install
