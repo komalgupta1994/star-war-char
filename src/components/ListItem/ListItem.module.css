@@ -1,0 +1,60 @@
+.back {
+  margin: 30px;
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: darkgray;
+    top: 15px;
+    position: relative;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .films {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .filmList {
+    margin: 5px 0;
+  }
+
+  .editButton {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formGroup {
+    margin: 10px 0;
+  }
+  
+  .edit {
+    padding: 5px;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  .buttons button {
+    padding: 4px
+  }
+
+  .buttons .save {
+    margin-right: 15px;
+  }
+  

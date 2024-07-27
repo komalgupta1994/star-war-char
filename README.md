@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Application is developed using the next js 14 with App Routing. Code is written in Typescript.
+## Here my first page is "Server Side Page", which means api will be called at server not on browser.
 
-## Getting Started
+## To run the app run below commands
+npm install
+npm run build
+npm run start
 
-First, run the development server:
+## To run the test cases, run
+npm run test
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## To check the application
+1. Open [http://localhost:3000] 
+2. Click on any Name of the character in the list to see the details of the character
+3. We also have Edit button in details page it will update the details of height and gender of that character after clicking on Save button.
+4. We have back to home page button to go back
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Below is the structure of app
+1. All the codes are part of src folder
+2. Inside the app folder, we have all the pages with their layout
+3. All the reusable components are part of components folder like List and ListItem
+4. We have create types folder for create the types of api response
+5. We have constant file to add all the urls
+6. Setup environment variables in .env files
